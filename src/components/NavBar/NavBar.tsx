@@ -1,6 +1,6 @@
 import React from "react";
 import { AppBar , Toolbar , Typography , Box, Button } from '@mui/material';
-import my_logo from '../../assets/images/my_logo.png';
+import sw_logo from '../../assets/images/sw_logo.png';
 
 const NavBar: React.FC = () => {
     const navItems: string[] = ['About', 'Skills', 'Projects', 'Contact'];
@@ -14,7 +14,7 @@ const NavBar: React.FC = () => {
                 <Box sx={{ flexGrow: 1, display: 'flex', alignItems: 'center' }}>
                     <Box
                         component="img"
-                        src={my_logo}
+                        src={sw_logo}
                         alt="Shahar SW Logo"
                         sx={{ 
                         height: 60,
